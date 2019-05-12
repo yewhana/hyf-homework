@@ -1,0 +1,152 @@
+body{
+    background:white;
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+    font-family: "segoe UI",'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 15%;
+}
+.campany{
+    padding: 25px 0;
+    width: 100%;
+    background: rgba(169, 169,169,0.1);
+}
+    .campany p {
+        margin-left: 15%;
+color:rgba(0,0,0,0.5);
+    }
+    .page {
+        list-style:  none;
+        display:inline-block;
+        padding: 0 15px;
+    }
+    .page a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+    }
+    .page  a hover {
+        color:purple;
+    }
+   a.about {
+color: rgba(0,0,0,0.25);
+    }
+    img {
+width: 100%;
+height: 400px;
+box-sizing: border-box;
+    }
+    main{
+        display: flex;
+        width: 100%;
+    }
+    article {
+        display: flex;
+        width: 100%
+    }
+    .left{
+        padding: 25px;
+        flex-grow: 1;
+        width:50%
+    }
+    .right {
+        padding: 25px;
+        flex-shrink: 0;
+        width: 50%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgba(45,9,163,0.8);
+    }
+    .foot{
+        width: 80px;
+        height: 100px;
+        box-sizing:border-box;
+    }
+    footer li{
+        list-style: none;
+        color: white;
+        padding: 10px 0;
+    }
+    .image {
+        width: 80px;
+        height: 70px;
+    }
+    li {
+list-style: none;
+padding: 10px 10px;
+    }
+    .icons {
+display: flex;
+justify-content: space-between;
+align-items: space-around;
+flex-flow: wrap;
+    }
+    @media screen and (max-width:400px){
+        body{
+margin: auto;
+font-family:sans-serif;
+    }
+    h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .campany p{
+        width: 100%;
+        font-size: 8px;
+        padding: 0 0 0 30%;
+    }
+    .page {
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    .image {
+        width: 260px;
+        height: 250px;
+    }
+    main {
+        display: block;
+        padding: 0 0 0 25px;
+    }
+    article {
+        display: block;
+        padding: 0 0 0 25px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    p {
+font-size: 8px;
+    }
+    .right {
+       widows: 80%;
+
+    }
+    .left {
+        width: 80%;
+        flex-grow: 1;
+
+    }
+    footer {
+width: 100%;
+display: block;
+    }
+    footer li{
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+}
